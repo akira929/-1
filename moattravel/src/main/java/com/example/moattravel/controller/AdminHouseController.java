@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.example.moattravel.entity.House;
 import com.example.moattravel.repository.HouseRepository;
 
+
+
 @Controller
 @RequestMapping("/admin/houses")
 
