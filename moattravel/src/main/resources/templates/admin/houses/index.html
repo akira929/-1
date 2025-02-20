@@ -79,13 +79,14 @@
 							th:text="${house.getAddress()}"></td> 
 							                    <td
 							th:text="${house.getPhoneNumber()}"></td>
-							                    <td><a href="#">詳細</a></td> 
+<!--							                    <td><a href="#">詳細</a></td> -->
+							                    <td><a th:href="@{/admin/houses/__${house.getId()}__}">詳細</a></td>
 							                  </tr>
 							                 </tbody>
 							                </table>
 							                
 							           <!--ページネーション-->
-							                <div th:if="${housePage.getTotalPages()> 1}" class="d-flex justify-content-center">
+							                <div th:if="${housePage.getTotalPages() > 1}" class="d-flex justify-content-center">
 												<nav aria-label="民宿一覧ページ">
 													<ul class="pagination">
 														<li class="page-item">

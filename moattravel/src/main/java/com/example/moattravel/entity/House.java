@@ -22,6 +22,9 @@ public class House{
 	@Column(name = "name")
 	private String name;
 	
+	@Column(name = "image_name")
+	private String imageName;
+	
 	@Column(name ="description")
 	private String description;
 	
