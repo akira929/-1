@@ -22,6 +22,10 @@ public class HouseRegisterForm {
 	@Min(value = 1, message = "宿泊料金は1円以上に設定してください。")
 	private Integer price;
 	
+	@NotBlank(message = "定員を入力してください。")
+	@Min(value = 1, message = "定員は1人以上に設定してください。")
+	private Integer capacity;
+	
 	@NotBlank(message = "郵便番号を入力してください。")
 	private String postalCode;
 	

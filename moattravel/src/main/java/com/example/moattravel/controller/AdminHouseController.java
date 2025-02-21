@@ -59,7 +59,7 @@ public class AdminHouseController {
 		return "admin/houses/show";
 	}
 	
-	@GetMapping("/reguster")
+	@GetMapping("/register")
 	public String register(Model model) {
 		model.addAttribute("houseRegisterForm", new HouseRegisterForm());
 		return "admin/houses/register";
