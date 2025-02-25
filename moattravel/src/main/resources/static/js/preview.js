@@ -6,9 +6,10 @@ imageInput.addEventListener('change', () => {
 		let fileReader = new FileReader();
 		fileReader.onload = () =>{
 			imagePreview.innerHTML = `<img src="${fileReader.result}" class="mb-3">`;
-			}
+	};
+			
 			fileReader.readAsDataURL(imageInput.files[0]);
 			} else {
 				imagePreview.innerHTML = '';
 		}
-	})
+	});
