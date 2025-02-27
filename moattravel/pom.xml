@@ -67,9 +67,12 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-    		<groupId>org.springframework.boot</groupId>
+			
+<!--			↓mail文　追加する-->
+    		<groupId>org.springframework.boot</groupId>      
     		<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
