@@ -9,5 +9,8 @@ import com.example.moattravel.entity.House;
 
 public interface HouseRepository extends JpaRepository<House, Integer> {
 	public Page<House> findByNameLike(String Keyword, Pageable pageable);
+	public Page<House> findByNameLikeOrAddressLike(String namekeyword, String addresskeyword, Pageable pageable);
+	public Page<House> findByAddressLike(String area, Pageable pageable);
+	public Page<House> findByPriceLessThanEqual(Integer price, Pageable pageable);
 	
 }
