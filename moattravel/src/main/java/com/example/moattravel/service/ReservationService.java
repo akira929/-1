@@ -55,9 +55,9 @@ public class ReservationService {
 		reservation.setCheckinDate(checkinDate);
 		reservation.setCheckoutDate(checkoutDate);
 		
-		reservation.setNumberOfPeople(reservationRegisterForm.getNumberOfPeople());
+		/*reservation.setNumberOfPeople(reservationRegisterForm.getNumberOfPeople());*/
 		/*reservation.setNumberOfPeople(numberOfPeople);*/
-		reservation.setAmount(reservationRegisterForm.getAmount());
+		/*reservation.setAmount(reservationRegisterForm.getAmount());*/
 		/*reservation.setAmount(amount);*/
 		
 		/*reservation.setAmount(reservationRegisterForm.getAmount());*/	
