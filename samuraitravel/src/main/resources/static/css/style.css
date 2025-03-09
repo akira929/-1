@@ -73,7 +73,7 @@
 	 color:#f2594b;
  }
  
- .samuraitravel-danger:hover{
+ .samuraitravel-link-danger:hover{
 	 color:#a63c3c
  }
  
@@ -84,6 +84,10 @@
  
  .samuraitravel-btn-danger:hover{
 	 opacity: 0.8;
+ }
+ 
+ .samuraitravel-dropdown-item:active {
+   background-color: #5196a6;
  }
 
  @media screen and (min-width: 1400px) {
